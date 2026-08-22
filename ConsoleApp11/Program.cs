@@ -50,6 +50,10 @@ namespace ConsoleApp11
             StructConstraint<int> s = new StructConstraint<int>(2, 4);
             Console.WriteLine(s);
             #endregion
+            #region q8
+            Classconstraint<String> c = new();
+            c.Add("a");
+            #endregion
 
 
 
