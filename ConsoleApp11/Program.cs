@@ -54,6 +54,15 @@ namespace ConsoleApp11
             Classconstraint<String> c = new();
             c.Add("a");
             #endregion
+            #region Q14
+            Safelist<int> list = new(6);
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+          Console.WriteLine(  list.Getbyindex(1)); //2
+            Console.WriteLine(list.Getbyindex(4)); // DEFAULT 0
+
+            #endregion
 
 
 
