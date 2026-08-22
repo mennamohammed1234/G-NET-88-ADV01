@@ -46,6 +46,10 @@ namespace ConsoleApp11
             int[] values = {1,2,3,4,5,6,7};
             Console.WriteLine( FindMax(values)); //7
             #endregion
+            #region q7
+            StructConstraint<int> s = new StructConstraint<int>(2, 4);
+            Console.WriteLine(s);
+            #endregion
 
 
 
