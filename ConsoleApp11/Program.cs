@@ -41,7 +41,7 @@ namespace ConsoleApp11
 //Avoid unnecessary boxing and unboxing, especially with value types.
 //Avoid unnecessary casting
             #endregion
-    #region q2
+            #region q2
             Container<int> l = new Container<int>();
             l.Add(1);
             Console.WriteLine(l.Get(0));
@@ -66,14 +66,19 @@ namespace ConsoleApp11
             Console.WriteLine(s);
             #endregion
             #region q8
-            Classconstraint<String> c = new();
+            Classconstraint<string> c = new();
             c.Add("a");
             #endregion
             #region q9
             //The new() constraint specifies that the generic type must have a public parameterless constructor,
             //allowing us to create an object of type T using new T().
           Container<Animal> container = new Container<Animal>();
-#endregion
+            #endregion
+            #region q10
+            PrintName<Animalname> a = new PrintName<Animalname>();
+            a.printName(new Animalname());
+           
+            #endregion
             #region Q14
             Safelist<int> list = new(6);
             list.Add(1);
