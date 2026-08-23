@@ -90,6 +90,9 @@ namespace ConsoleApp11
             //You can apply multiple constraints using the where keyword.Multiple constraints are separated by commas.
             Multiconstrain<Animal> multiconstrain = new Multiconstrain<Animal>(); // class and has paramterless constructor
             #endregion
+            #region q13
+            //The default keyword returns the default value of the generic type T
+            #endregion
             #region Q16
             Iprocessor <Cat> processor = new AnimalPreocess();
             cat.Name = "c0";
