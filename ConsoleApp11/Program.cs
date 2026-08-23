@@ -114,6 +114,12 @@ namespace ConsoleApp11
             Console.WriteLine(Counter<int>.COUNT);//1
             Console.WriteLine(Counter<Animal>.COUNT);//2
             #endregion
+            #region q19
+            //You can inherit from a generic class by specifying the type parameter in the derived class
+            Child_Pair child_Pair = new Child_Pair(5, "Menna");
+            Console.Write(child_Pair);
+
+            #endregion
 
         }
     }
