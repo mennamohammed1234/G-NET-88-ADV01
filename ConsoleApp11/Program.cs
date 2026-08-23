@@ -64,7 +64,20 @@ namespace ConsoleApp11
 
             #endregion
 
+            #region q11
+            Animal animal = new Animal();
+            AnimalSound<Animal>animalSound= new AnimalSound<Animal>();
+            animalSound.MakeSound(animal);
 
+            Cat cat = new Cat();
+            AnimalSound<Cat> catSound = new AnimalSound<Cat>();
+            animalSound.MakeSound(cat);
+
+
+       //     AnimalSound<Pair<int,string> cSound = new AnimalSound<Pair<int,string>>(); error cuse class pair not ihhrit from animal
+
+
+            #endregion
 
         }
     }
