@@ -104,10 +104,16 @@ namespace ConsoleApp11
           Console.WriteLine(  ipreocess2.Get().Name); // 
             #endregion
             #region q17
-          //  Covariance(out): works with output /return types and allows derived → base.
-           //Contravariance(in): works with input / parameters and allows base → derived.
+            //  Covariance(out): works with output /return types and allows derived → base.
+            //Contravariance(in): works with input / parameters and allows base → derived.
             #endregion
-
+            #region q18
+       //     Static members in a generic class are separate for each type argument.
+            Counter<int>.COUNT = 1;
+            Counter<Animal>.COUNT = 2;
+            Console.WriteLine(Counter<int>.COUNT);//1
+            Console.WriteLine(Counter<Animal>.COUNT);//2
+            #endregion
 
         }
     }
