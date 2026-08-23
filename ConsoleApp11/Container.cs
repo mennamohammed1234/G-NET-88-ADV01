@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp11
 {
-    internal class Container<T>
+    internal class Container<T> where T : new()
     {
         List<T> values;
 

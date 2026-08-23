@@ -1,4 +1,6 @@
-﻿using System.Numerics;
+﻿using System.Data;
+using System.Numerics;
+using System.Reflection.Metadata;
 
 namespace ConsoleApp11
 {
@@ -54,6 +56,11 @@ namespace ConsoleApp11
             Classconstraint<String> c = new();
             c.Add("a");
             #endregion
+            #region q9
+            //The new() constraint specifies that the generic type must have a public parameterless constructor,
+            //allowing us to create an object of type T using new T().
+          Container<Animal> container = new Container<Animal>();
+#endregion
             #region Q14
             Safelist<int> list = new(6);
             list.Add(1);
