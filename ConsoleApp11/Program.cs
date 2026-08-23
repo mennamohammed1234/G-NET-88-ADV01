@@ -84,6 +84,10 @@ namespace ConsoleApp11
             processor.Process(cat);
 
             #endregion
+            #region q15
+            Ipreocess2<Animal> ipreocess2 = new Cat_preocess();
+          Console.WriteLine(  ipreocess2.Get().Name); // 
+            #endregion
 
 
         }
