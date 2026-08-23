@@ -2,6 +2,9 @@
 using System.Data;
 using System.Numerics;
 using System.Reflection.Metadata;
+using System.Text;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApp11
 {
@@ -29,7 +32,16 @@ namespace ConsoleApp11
         #endregion
         static void Main(string[] args)
         {
-            #region q2
+            #region q1
+//  A generic class is a class that works with different data types using a type parameter such as T.
+//Generics are used to:
+//Reuse the same code with different data types.
+//Provide type safety.
+//Reduce code duplication.
+//Avoid unnecessary boxing and unboxing, especially with value types.
+//Avoid unnecessary casting
+            #endregion
+    #region q2
             Container<int> l = new Container<int>();
             l.Add(1);
             Console.WriteLine(l.Get(0));
@@ -120,6 +132,7 @@ namespace ConsoleApp11
             Console.Write(child_Pair);
 
             #endregion
+
 
         }
     }
