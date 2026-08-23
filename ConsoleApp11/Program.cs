@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using Microsoft.VisualBasic;
+using System.Data;
 using System.Numerics;
 using System.Reflection.Metadata;
 
@@ -85,8 +86,12 @@ namespace ConsoleApp11
 
 
             #endregion
+            #region q12
+            //You can apply multiple constraints using the where keyword.Multiple constraints are separated by commas.
+            Multiconstrain<Animal> multiconstrain = new Multiconstrain<Animal>(); // class and has paramterless constructor
+            #endregion
             #region Q16
-            Iprocessor<Cat> processor = new AnimalPreocess();
+            Iprocessor <Cat> processor = new AnimalPreocess();
             cat.Name = "c0";
             processor.Process(cat);
 
