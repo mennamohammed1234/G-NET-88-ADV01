@@ -74,10 +74,17 @@ namespace ConsoleApp11
             animalSound.MakeSound(cat);
 
 
-       //     AnimalSound<Pair<int,string> cSound = new AnimalSound<Pair<int,string>>(); error cuse class pair not ihhrit from animal
+            //     AnimalSound<Pair<int,string> cSound = new AnimalSound<Pair<int,string>>(); error cuse class pair not ihhrit from animal
 
 
             #endregion
+            #region Q16
+            Iprocessor<Cat> processor = new AnimalPreocess();
+            cat.Name = "c0";
+            processor.Process(cat);
+
+            #endregion
+
 
         }
     }
