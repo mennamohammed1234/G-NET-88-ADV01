@@ -88,6 +88,10 @@ namespace ConsoleApp11
             Ipreocess2<Animal> ipreocess2 = new Cat_preocess();
           Console.WriteLine(  ipreocess2.Get().Name); // 
             #endregion
+            #region q17
+          //  Covariance(out): works with output /return types and allows derived → base.
+           //Contravariance(in): works with input / parameters and allows base → derived.
+            #endregion
 
 
         }
