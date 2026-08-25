@@ -4,7 +4,9 @@ using System.Text;
 
 namespace ConsoleApp11
 {
-    internal class Product
+    internal interface Iprocessor<in T>
     {
+        public void Process(T obj);
+
     }
 }
